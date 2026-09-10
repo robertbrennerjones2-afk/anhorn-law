@@ -1,0 +1,33 @@
+<form id="lead-intake-form" class="lead-form" action="mailto:jordan@anhornlaw.com" method="POST" enctype="text/plain">
+  <div class="form-row grid-2-col">
+    <div class="form-group">
+      <label for="first-name">First Name <span class="required" aria-hidden="true">*</span></label>
+      <input type="text" id="first-name" name="firstName" required aria-required="true" placeholder="Jane">
+    </div>
+    <div class="form-group">
+      <label for="last-name">Last Name <span class="required" aria-hidden="true">*</span></label>
+      <input type="text" id="last-name" name="lastName" required aria-required="true" placeholder="Doe">
+    </div>
+  </div>
+
+  <div class="form-row grid-2-col">
+    <div class="form-group">
+      <label for="email">Email Address <span class="required" aria-hidden="true">*</span></label>
+      <input type="email" id="email" name="email" required aria-required="true" placeholder="jane@example.com">
+    </div>
+    <div class="form-group">
+      <label for="phone">Phone Number <span class="required" aria-hidden="true">*</span></label>
+      <input type="tel" id="phone" name="phone" required aria-required="true" placeholder="(555) 555-5555">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <label for="case-description">Briefly Describe Your Case <span class="required" aria-hidden="true">*</span></label>
+    <textarea id="case-description" name="caseDescription" rows="5" required aria-required="true" placeholder="Please provide a brief overview of your situation. Do not include sensitive medical or financial information."></textarea>
+  </div>
+
+  <div class="form-actions">
+    <button type="submit" class="btn btn-primary submit-btn">Send Message</button>
+    <p class="form-disclaimer"><small>Disclaimer: Submitting this form does not create an attorney-client relationship. Information provided is strictly confidential.</small></p>
+  </div>
+</form>
